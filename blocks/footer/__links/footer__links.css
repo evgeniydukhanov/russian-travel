@@ -1,0 +1,13 @@
+.footer__links {
+  list-style: none;
+  display: inline;
+  color: #fff;
+  padding: 0;
+}
+
+@media screen and (max-width:320px) {
+  .footer__links{
+    max-width: 186px;
+
+  }
+}

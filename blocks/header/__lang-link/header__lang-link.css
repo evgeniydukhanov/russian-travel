@@ -1,0 +1,8 @@
+
+.header__lang-link {
+  display: flex;
+  color: white;
+  list-style: none;
+  justify-content: flex-start;
+ /* border:1px solid red;*/
+}
