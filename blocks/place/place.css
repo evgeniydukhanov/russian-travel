@@ -1,7 +1,6 @@
 .place {
   max-width: 984px;
 /*  border: 1px solid red;*/
-  width: 100%;
   display: grid;
   grid-template-columns: 460px 1fr;
   grid-template-rows: auto;
@@ -42,3 +41,4 @@
     row-gap:32px;
   }
 }
+
