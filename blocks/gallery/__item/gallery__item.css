@@ -1,28 +1,3 @@
 .gallery__item {
-  max-width: 352px;
   width: 100%;
-}
-
-@media screen and (max-width:1280px) {
-  .gallery__item {
-    max-width: 284px;
-  }
-}
-
-@media screen and (max-width:1024px) {
-  .gallery__item {
-    max-width: 300px;
-  }
-}
-
-@media screen and (max-width:768px) {
-  .gallery__item {
-    max-width: 352px;
-  }
-}
-
-@media screen and (max-width:320px) {
-  .gallery__item {
-    max-width: 288px;
-  }
 }

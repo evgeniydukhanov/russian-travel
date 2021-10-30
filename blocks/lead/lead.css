@@ -1,8 +1,8 @@
 .lead {
   display: flex;
- /* border: 1px solid red;*/
+  /* border: 1px solid red;*/
   max-width: 984px;
-  width: 90%;
+  width: 100%;
   margin: 56px auto 0 auto;
   flex-direction: column;
 }
@@ -23,6 +23,5 @@
 @media screen and (max-width:320px) {
   .lead {
     max-width: 320px;
-    width: 100%;
   }
 }

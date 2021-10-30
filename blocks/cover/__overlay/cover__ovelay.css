@@ -1,6 +1,6 @@
 .cover__overlay {
-  display: block;
-  /*flex-direction: column;*/
+  display: flex;
+  flex-direction: column;
   /*border: 1px solid red;*/
   min-height: 740px;
   background-image: url(../../../images/cover-trains.jpg);
@@ -11,6 +11,8 @@
   box-sizing: border-box;
   margin: 0 auto;
   text-decoration: none;
+  justify-content: center;
+  align-items: center;
 }
 
 .cover__overlay::before {
@@ -38,14 +40,14 @@
 
 @media screen and (max-width:768px) {
   .cover__overlay {
-    max-width:768px;
+    max-width: 768px;
     min-height: 480px;
   }
 }
 
-  @media screen and (max-width:320px) {
-    .cover__overlay {
-      max-width: 320px;
-      min-height: 200px;
-    }
+@media screen and (max-width:320px) {
+  .cover__overlay {
+    max-width: 320px;
+    min-height: 200px;
   }
+}

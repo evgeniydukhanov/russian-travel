@@ -1,6 +1,5 @@
-
 .header__lang-switch {
-  margin: 18px 0 6px 0;
+  margin: 18px 18px 6px 0;
   font-family: Inter, Arial, sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -13,14 +12,17 @@
   /* border:1px solid red;*/
 }
 
+.header__lang-switch:last-of-type {
+  margin: 18px 0 6px 0;
+}
+
 .header__lang-switch:hover {
   opacity: 0.5;
 }
 
-
 @media screen and (max-width:320px) {
-  .header__lang-switch{
-    font-size:18px;
+  .header__lang-switch {
+    font-size: 18px;
+    line-height: 20px;
   }
-
 }

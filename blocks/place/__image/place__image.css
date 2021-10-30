@@ -2,26 +2,18 @@
   width: 100%;
   grid-row-start: 2;
   grid-row-end: 3;
-  max-width: 460px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:650px) {
   .place__image {
-    max-width: 440px;
-  }
-}
-
-@media screen and (max-width:768px) {
-  .place__image {
-    max-width: 340px;
+    max-width: 500px;
+    grid-row-start: 3;
+    margin: 0;
   }
 }
 
 @media screen and (max-width:320px) {
   .place__image {
     max-width: 320px;
-    width: 100%;
-    grid-row-start:3;
-    margin: 0;
   }
 }

@@ -3,7 +3,7 @@
   display: grid;
   /*border: 1px solid red;*/
   max-width: 1184px;
-  width: calc (100% - 96px);
+  width: calc(100% - 96px);
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(3, 1fr);
   column-gap: 16px;
@@ -23,10 +23,11 @@
 @media screen and (max-width:768px) {
   .gallery {
     max-width: 720px;
+    width:100%;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(6, 1fr);
     gap: 16px;
-    margin:88px 42px 88px 42px;
+    margin: 88px auto;
   }
 }
 
@@ -39,3 +40,4 @@
     margin: 64px 16px 64px 16px;
   }
 }
+

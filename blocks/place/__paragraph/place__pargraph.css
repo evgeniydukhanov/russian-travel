@@ -9,13 +9,13 @@
   color: #FFFFFF;
 }
 
-.place__paragraph:nth-child(2n) {
-  margin: 0;
+.place__paragraph:last-child {
+  margin-top: 0;
 }
 
 @media screen and (max-width:768px) {
   .place__paragraph {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 26px;
   }
 }
@@ -23,11 +23,9 @@
 @media screen and (max-width:320px) {
   .place__paragraph {
     font-size: 16px;
-    line-height: 26px;
     margin: 0 16px;
   }
   .place__paragraph:nth-child(2n) {
     margin: 25px 16px 0 16px;
   }
 }
-
